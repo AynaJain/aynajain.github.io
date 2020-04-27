@@ -90,7 +90,7 @@ function gotResults(err, results) {
   if (err) console.log(err);
   if (results) {
     console.log(results);
-    if (results[0].label === "Few") {
+    if (results[0].label === "Pew") {
       mouseClicked();
     }
 
