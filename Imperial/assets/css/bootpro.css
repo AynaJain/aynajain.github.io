@@ -1,0 +1,101 @@
+/*body{
+	height:20000px;
+}*/
+.height60px{
+	height:700px;
+}
+.mast{
+	/*background-image:url(../images/head.jpg);*/
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/m.jpg) fixed center center;
+	background-size:cover;
+	background-position:center center;
+	/*background: rgba(0, 0, 0, 0.8);*/
+}
+/*header{
+	background:url(images/11.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	width:100%;
+}*/
+.p_size{
+	font-size:100px;
+	font-family: 'Playball', cursive;
+}
+.design{
+	font-family: 'Playball', cursive;
+	font-size:50px;
+}
+.back{
+	/*background:url(../images/12.jpg);*/
+	background:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../images/12.jpg") fixed center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:black;
+	/*background:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../images/12.jpg") fixed center center;*/
+	/*background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));*/
+	/*opacity: 0.5;*/
+    /*filter: alpha(opacity=50);*/
+}
+
+/*.container-fluid .back h2{
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.container-fluid .back p{
+	color: black;
+}*/
+
+.button{
+	border-radius:50%;
+}
+.photo_h{
+	height:260px;
+	width:290px;
+}
+.back_cover{
+	/*background-image:url(../images/city.jpg);*/
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/city.jpg) fixed center center;
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+/*.opa{
+	background-color:rgba(249, 249, 249,0.5);
+}*/
+.image {
+  opacity: 1;
+  display: block;
+  /*width: 100%;
+  height: auto;*/
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.col-3:hover .image {
+  opacity: 0.3;
+}
+
+.col-3:hover .middle {
+  opacity: 1;
+}
+
+.text {color:black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+  
+.bor{
+	border:3px solid white;
+}
